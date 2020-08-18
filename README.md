@@ -8,11 +8,22 @@ Write a function that takes an arabic number and returns the roman numeral that 
 
 ## To run the app and tests
 
+Getting set up
+
 ```
 python3 -m venv venv
 . venv/bin/activate
 pip install -r requirements.txt
-make test-watch
 ```
 
-The tests will then watch `app.py` for changes and run every time the file is saved.
+To run the tests:
+
+```
+pytest app.py
+```
+
+To run and watch the tests:
+
+```
+ptw app.py
+```
